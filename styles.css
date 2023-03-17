@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:dark ;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display:flex;
+    align-items:end;
+    position:sticky;
+    background-color:black;
+}
+nav ul li a{
+    display:inline-block;
+    list-style:none;
+    margin:10px 50px;
+    justify-content:end;
+    color:white;
+}
+nav ul li a:hover{
+    width:100%;
+    background-color:skyblue;
+}
+.header{
+
+    text-align:center;
+    margin-top: 75px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.chinnu{
+    float:right;
+}
+.about{
+    margin-top: 75px;
+}
+h1{
+    color:#62CDFF;
+}
+.about-matter{
+    line-height:1.5rem;
+}
+.header-text{
+    text-align: center;
+    padding-top: 100px;
+}
+.contact-me{
+ text-align: center;
+ padding-top: 75px;
+ padding-bottom: 75px;
+ background-color: dimgray;
+ margin-top: 15px;
+ text-decoration: none;
+}
+.contact-page{
+    background-color: aqua;
+padding-top: 75px;
+}
